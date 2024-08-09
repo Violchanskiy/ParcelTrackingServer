@@ -101,4 +101,4 @@
 Для документирования API используется Swagger. После запуска приложения вы можете получить доступ к Swagger UI по адресу:
 
 ```sh
-http://localhost:8080/swagger-ui.html
+http://localhost:8080/swagger-ui/index.html
