@@ -34,6 +34,7 @@
 ## Предварительные требования
 
 - Docker
+- Docker-compose
 - Java 17
 - Maven
 
@@ -52,13 +53,14 @@
    docker-compose up
 
 ### Без использования Docker
+1. **Настройте базу данных PostgreSQL**
 
-1. **Соберите проект:**
+2. **Соберите проект:**
 
    ```sh 
    mvn clean install
    
-2. **Запустите проект:**
+3. **Запустите проект:**
 
    ```sh
    java -jar PostService.jar
