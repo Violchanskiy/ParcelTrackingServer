@@ -51,7 +51,19 @@
    ```sh
    docker-compose up
 
-Это запустит приложение и базу данных PostgreSQL. Приложение будет доступно по адресу http://localhost:8080.
+### Без использования Docker
+
+1. **Соберите проект:**
+
+   ```sh 
+   mvn clean install
+   
+2. **Запустите проект:**
+
+   ```sh
+   java -jar PostService.jar
+   
+Это запустит приложение. Приложение будет доступно по адресу http://localhost:8080.
 
 ## API Endpoints
 ### Endpoints для почтовых отделений
