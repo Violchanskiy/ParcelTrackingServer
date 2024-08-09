@@ -40,18 +40,13 @@
 ## Запуск проекта
 
 ### Использование Docker
-1. **Соберите проект**
 
-   ```sh
-   mvn clean install
-
-
-2. **Соберите Docker-образ:**
+1. **Соберите Docker-образ:**
 
    ```sh
    docker build -t post_service .
    
-3. **Запустите приложение с помощью Docker Compose**
+2. **Запустите приложение с помощью Docker Compose**
 
    ```sh
    docker-compose up
